@@ -1,0 +1,82 @@
+body {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:  50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+}
+
+form {
+    position: relative;
+    display:flex;
+    flex-direction:row;
+    padding:2px;
+}
+  
+input {
+    flex-grow:2;
+    border:none;
+}
+  
+input:focus {
+    outline: none;
+}
+  
+button {
+    border:1px solid blue;
+    background:blue;
+    color:white;
+}
+
+img {
+      position: relative;
+      transform: translate(-50%,-50%);
+      top:  50%;
+      left: 50%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+p {
+    position: relative;
+}
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0064e6, 0 0 40px #00d7e6, 0 0 50px #00e6e6, 0 0 60px #00e6d3, 0 0 70px #00e6c7;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
